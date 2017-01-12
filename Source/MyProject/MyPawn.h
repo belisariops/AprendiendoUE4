@@ -25,6 +25,10 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	USceneComponent* OurVisibleComponent;
+
+	UPROPERTY(EditAnywhere)
+	UCameraComponent* OurCamera;
+
 private:
 	//Input functions
 	void Move_XAxis(float AxisValue);
